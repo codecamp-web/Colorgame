@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+   <div id="gameContainer">
+      <h1>Color Game </h1>
+      <p id="gameInstructions" data-testid="gameInstructions">Guess the correct color!</p>
+
+      <div class="colorScores">
+      <p id="score" data-testid="score">Score: 0</p>
+     <button id="newGameButton" data-testid="newGameButton">New Game</button>
+   </div>
+      <div id="colorBox" data-testid="colorBox"></div>
+      <div id="colorOptions">
+          <!-- Color buttons will be generated here -->
+      </div>
+      <p id="gameStatus" data-testid="gameStatus"></p>
+  </div> 
+   <script src="index.js"></script>
+</body>
+   </html>

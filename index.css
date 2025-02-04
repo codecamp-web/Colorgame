@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#gameInstructions{
+  color: gray;
+  font-size: 15px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+#newGameButton{
+  background-color: rgb(75, 75, 184);
+}
+
+.colorScores{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#gameContainer {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+#colorBox {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+#colorOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+#gameStatus {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+  #gameContainer {
+      width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  button {
+      width: 100%;
+  }
+}
